@@ -2,3 +2,4 @@ hrnetv2_models/*.pth
 hrnetv2_models/*.yaml
 *.pyc
 .ipynb_checkpoints
+.idea

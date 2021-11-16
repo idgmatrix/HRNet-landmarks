@@ -61,13 +61,9 @@ def draw_landmarks(img, lmks, color, line_width):
 
 
 model = get_model_by_name('300W', device='cuda')
-
-
-
 #img = cv2.imread('./images/chester.jpg')
 #lmks = get_lmks_by_img(model, img)
 #show_landmarks(img, lmks)
-
 
 cam = cv2.VideoCapture(0)
 while True:
